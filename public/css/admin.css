@@ -1,0 +1,48 @@
+.indertPporuct{display: none;}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.textStep{min-height: 168px;}
+.imgThumbUpdateStep{text-align: center;}
+.imgThumbUpdateStep>img{height: 150px;}
+.cardProduct{cursor: pointer;}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    opacity: 0;
+    background: none;
+    cursor: inherit;
+    display: block;
+}
+.kv-file-content {
+    text-align: center;
+}
+.imgprevieDeleteStep{width: 37%;}
+.modalDeleteSteps{width: 100%; max-width: 878px;}
+.file-preview-frame {
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 5px 0 #a2958a;
+    padding: 6px;
+}.file-thumbnail-footer {
+    position: relative;
+}.file-footer-caption {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 160px;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 11px;
+    color: #777;
+    margin: 5px auto;
+}

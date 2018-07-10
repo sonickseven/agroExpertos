@@ -1,0 +1,37 @@
+body{margin:0; padding: 0}
+.main>nav {background-color: #FF8C64;color: #fff;text-align: center;font: 27px arial;padding: 4px;}
+.body>article{display: inline-block; box-sizing: border-box;vertical-align: top;}
+.body>.newQuery{width: 20%;padding: 0;margin: 0;font: 20px arial;background-color: #fff;color: #000;}
+.newQuery>h4{padding: 0;margin: 8px 0;}
+.newQuery-msg {transition: all 1s; border-bottom: 1px solid #ddd;padding: 4px;background-color: #058188;cursor: pointer;color: #fff;font: 17px arial;}
+.newQuery-msg:hover{background-color: #105154;}
+.body>.chating{width: 79%;height: 100%;}
+.body>.chating>div:nth-child(2){height: 95%;}
+.body>.chating .msgs{height: 95%;overflow-y: auto;overflow-x: hidden;}
+section.body {
+    height: 93%;
+}
+section.main {
+    height: 93vh;
+}
+.chating>.head{background-color: #058188;border-top: 1px dashed #fff;font: 23px arial;text-align: center;color: #fff;}
+
+.msgsgs>div {margin-top: 10px; padding: 5px 5px 0px;position: relative; max-width: 600px;display: inline-block; border-radius: 5px;font: 16px arial;}
+.msgsgs>div>.headers {border-radius: 4px;background-color: rgba(255, 255, 255, 0.38);display: inline-block;padding: 2px 4px;}
+.msgsgs.exter{text-align: left;}
+.msgsgs.exter>div {background-color: #FFD1C2;text-align: right;margin: 9px 0 0 29px;}
+.msgsgs.exter>div>.headers {text-align: right;}
+.msgsgs.exter>div:before {border-color: transparent #FFD1C2 transparent transparent;border-style: solid;border-width: 16px;content: "";position: absolute;left: -31px;top: 5px;}
+.msgsgs.exter>div>p{text-align: left;}
+.msgsgs>div>p {word-wrap: break-word;}
+
+
+.msgsgs.inter{text-align: right;}
+.msgsgs.inter>div {background-color: #98E8EC;margin: 9px 29px 0 0;}
+.msgsgs.inter>div:after{border-color: transparent transparent transparent #98E8EC;border-style: solid;border-width: 16px;content: "";position: absolute;right: -31px;top: 5px;}
+
+.wrters {background-color: #ddd;padding: 5px;border-radius: 5px; text-align: center;}
+.wrters>textarea {width: 96%;border-radius: 4px;resize: none;min-height: 50px;}
+
+
+
